@@ -1,0 +1,29 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api/index.php" },
+    { "source": "/sobre", "destination": "/api/sobre.php" },
+    { "source": "/servicos", "destination": "/api/servicos.php" },
+    { "source": "/contato", "destination": "/api/contato.php" },
+    { "source": "/especialistas", "destination": "/api/especialistas.php" },
+    { "source": "/diagnostico-empresarial", "destination": "/api/diagnostico-empresarial.php" },
+    { "source": "/reestruturacao-financeira", "destination": "/api/reestruturacao-financeira.php" },
+    { "source": "/turnaround", "destination": "/api/turnaround.php" },
+    { "source": "/governanca-sucessao", "destination": "/api/governanca-sucessao.php" },
+    { "source": "/captacao-estrategia-saida", "destination": "/api/captacao-estrategia-saida.php" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+      ]
+    }
+  ]
+}

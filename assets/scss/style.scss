@@ -1,0 +1,144 @@
+// REVITA — Site institucional
+// Paleta: #283052 (azul base), #3F9042 (verde), #ABD358 (verde claro), #D8D9DA (cinza), branco
+
+$color-base: #283052;
+$color-base-hover: #1e2440;
+$color-green: #3F9042;
+$color-green-light: #ABD358;
+$color-gray: #D8D9DA;
+$color-gray-bg: #f5f6f7;
+$color-white: #ffffff;
+$color-text: #283052;
+$color-text-muted: #5a5f7a;
+
+$font-primary: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+
+$container: 960px;
+$container-narrow: 720px;
+$container-padding: 24px;
+$header-height: 72px;
+
+$radius: 4px;
+$transition: 0.2s ease;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: $color-base rgba($color-base, 0.12);
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background: rgba($color-base, 0.06);
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $color-base;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        background-clip: padding-box;
+        &:hover {
+            background: $color-base-hover;
+            background-clip: padding-box;
+        }
+    }
+}
+
+body {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-text;
+    line-height: 1.6;
+    background: $color-white;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: $container;
+    margin: 0 auto;
+    padding: 0 $container-padding;
+}
+
+.container--header {
+    max-width: $container + 48px;
+}
+
+.container--hero {
+    max-width: $container;
+}
+
+a {
+    color: $color-green;
+    text-decoration: none;
+    transition: color $transition;
+    &:hover {
+        color: $color-base;
+    }
+    &:focus-visible {
+        outline: 2px solid $color-green;
+        outline-offset: 2px;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    font-family: $font-primary;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    border-radius: $radius;
+    cursor: pointer;
+    transition: background $transition, color $transition, transform $transition;
+    &:focus-visible {
+        outline: 2px solid $color-base;
+        outline-offset: 2px;
+    }
+    &--primary {
+        background: $color-base;
+        color: $color-white;
+        &:hover {
+            background: $color-base-hover;
+        }
+    }
+    &--light {
+        background: $color-white;
+        color: $color-base;
+        &:hover {
+            background: $color-gray-bg;
+            color: $color-base;
+        }
+    }
+    &--outline {
+        background: transparent;
+        color: $color-base;
+        border: 2px solid $color-base;
+        &:hover {
+            background: $color-base;
+            color: $color-white;
+        }
+    }
+}
+
+@import 'header';
+@import 'hero';
+@import 'ticker';
+@import 'sections';
+@import 'page-hero';
+@import 'page-content';
+@import 'especialistas';
+@import 'sobre';
+@import 'contact-form';
+@import 'footer';
+@import 'scroll-top';
