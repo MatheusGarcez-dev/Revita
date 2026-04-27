@@ -53,9 +53,11 @@
                 <div class="rep-card__content">
                     <h2 class="rep-card__name">Miguel Francisco Feres</h2>
                     <p class="rep-card__role">Pessoas, Cultura & ESG</p>
-                    <p class="rep-card__bio">Executivo com mais de 40 anos de experiência em Recursos Humanos e ESG, com atuação em posições C-level em empresas nacionais e multinacionais de grande porte.</p>
-                    <p class="rep-card__bio">Atuou no suporte a presidências e Conselhos, liderando projetos estratégicos de capital humano, cultura organizacional, remuneração e governança ESG.</p>
-                    <p class="rep-card__bio">Possui experiência internacional e forte atuação em transformação organizacional, com foco em integridade, diálogo e resultados sustentáveis.</p>
+                    <p class="rep-card__bio">Executivo com mais de 40 anos de experiência em Recursos Humanos e ESG, com atuação consolidada em posições C-level desde 2007 em empresas nacionais e multinacionais de grande porte, nos setores automobilístico, papel e celulose, bioenergia e bens de consumo.</p>
+                    <p class="rep-card__bio">Ao longo da carreira, atuou diretamente no suporte a presidências e Conselhos de Administração, Consultivos e Fiscais, liderando projetos estratégicos relacionados a capital humano, cultura organizacional, remuneração e governança ESG. Possui forte experiência em negociações sindicais complexas e relacionamento institucional com entidades representativas.</p>
+                    <p class="rep-card__bio">Destaca-se pela liderança de comitês multidisciplinares (RH, Riscos, Ética e ESG), com participação ativa em decisões estratégicas e na condução de agendas críticas de transformação organizacional.</p>
+                    <p class="rep-card__bio">Com experiência internacional em empresas como Ford, TRW, Volkswagen e Faber-Castell, traz uma visão global aliada à execução prática em ambientes industriais e corporativos de alta complexidade.</p>
+                    <p class="rep-card__bio">Sua atuação é pautada por valores sólidos de integridade, diálogo, senso de dono e foco. Tendo como resultado sustentável o ciclo de pessoas, processos e produtos, contribuindo diretamente para o fortalecimento da governança e da performance das organizações.</p>
                 </div>
             </article>
         </div>
