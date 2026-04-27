@@ -42,6 +42,23 @@
         </div>
     </section>
 
+    <section class="rep-section">
+        <div class="container">
+            <article class="rep-card">
+                <div class="rep-card__image">
+                    <img src="/assets/img/Miguel.png" alt="Miguel Francisco Feres" width="320" height="400" loading="lazy">
+                </div>
+                <div class="rep-card__content">
+                    <h2 class="rep-card__name">Miguel Francisco Feres</h2>
+                    <p class="rep-card__role">Pessoas, Cultura & ESG</p>
+                    <p class="rep-card__bio">Executivo com mais de 40 anos de experiência em Recursos Humanos e ESG, com atuação em posições C-level em empresas nacionais e multinacionais de grande porte.</p>
+                    <p class="rep-card__bio">Atuou no suporte a presidências e Conselhos, liderando projetos estratégicos de capital humano, cultura organizacional, remuneração e governança ESG.</p>
+                    <p class="rep-card__bio">Possui experiência internacional e forte atuação em transformação organizacional, com foco em integridade, diálogo e resultados sustentáveis.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <section class="rep-cta">
         <div class="container">
             <p class="rep-cta__text">Atendimento sob confidencialidade.</p>

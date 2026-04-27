@@ -49,7 +49,7 @@
         <div class="container">
             <article class="rep-card">
                 <div class="rep-card__image">
-                    <img src="assets/img/celso.jpeg" alt="Celso Silveira" width="320" height="400" loading="lazy">
+                    <img src="assets/img/Miguel.png" alt="Miguel Francisco Feres" width="320" height="400" loading="lazy">
                 </div>
                 <div class="rep-card__content">
                     <h2 class="rep-card__name">Miguel Francisco Feres</h2>
