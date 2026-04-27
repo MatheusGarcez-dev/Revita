@@ -17,9 +17,11 @@
                 </div>
                 <div class="rep-card__content">
                     <h2 class="rep-card__name">Celso Silveira</h2>
-                    <p class="rep-card__bio">Executivo com atuação em grandes grupos nacionais e multinacionais, com experiência direta na reestruturação de negócios institucionais e familiares. Atuação voltada a projetos relevantes de reestruturação, turnaround e gestão empresarial.</p>
-                    <p class="rep-card__bio">Possui experiência em reestruturação financeira, operacional, governança, reorganização fiscal, tributária, reestruturação societária, além de participação em operações de fusões e aquisições.</p>
-                    <p class="rep-card__bio">Formação em administração de empresas, com MBA executivo em finanças, negócios e estratégia.</p>
+                     <p class="rep-card__role">Finanças</p>
+                    <p class="rep-card__bio">Executivo com sólida atuação em grandes grupos nacionais e multinacionais, acom experiência direta em processos de reestruturação de negócios institucionais e familiares.</p>
+                    <p class="rep-card__bio">Construiu sua trajetória em posições de destaque em empresas de relevância como Cargill, Louis Dreyfus Company, Grupo Bom Jesus e Grupo Pereira, liderando iniciativas estratégicas em ambientes de alta complexidade e transformação.</p>
+                    <p class="rep-card__bio">Possui expertise consolidada na condução de projetos de reestruturação financeira e operacional, reorganização fiscal e tributária, governança corporativa e reestruturação societária, além de participação ativa em operações de fusões e aquisições e processos de turnaround.</p>
+                    <p class="rep-card__bio">Formado em Administração de Empresas, com MBA Executivo em Finanças, Negócios e Estratégia, combina visão estratégica, disciplina financeira e forte capacidade de execução, atuando de forma próxima a acionistas, conselhos e alta liderança na geração de valor e na recuperação sustentável dos negócios.</p>
                 </div>
             </article>
         </div>
